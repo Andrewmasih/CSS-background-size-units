@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Background size measurement units</title>
+    <style>
+      .image {
+        width: 300px;
+        height: 300px;
+        background-image: url('https://dummyimage.com/50X50/000/fff.png');
+        background-repeat: no-repeat;
+
+        /* The first value sets the width,
+        second sets the height.
+        Percentage values are relative to
+        the container. */
+        background-size: 80% 40%;
+        
+        /* Uncomment each of these lines and
+        play with the values */
+        /* background-size: 40px 30px; */
+        /* background-size: 3em 5em; */
+
+        /* If only one value is set,
+        the second is set to auto. */
+        /* background-size:  40px; */
+        
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image"></div>
+  </body>
+</html>
